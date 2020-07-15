@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Question 1</h4>
+       <h2>Console Function</h2>
+       <p>
+        <h1>console.log()</h1>
+
+        <b>Mainly used to log(print) the output to the console. We can put any type inside the log(), be it a string, array, object, boolean etc.
+        </b>
+        <ul>
+    <li>console.log() method</li>
+        <b>Ex</b>
+       <li>console.log('abc');</li>   
+        <li>console.log(1); </li>
+        <li>console.log(true); </li>
+        <li>console.log(null);</li> 
+        <li>console.log(undefined);</li>
+        <li>console.log([1, 2, 3, 4]); //Array inside log</li>
+        <li>console.log({a:1, b:2, c:3});//objects inside log</li>
+    
+       </ul>
+       </p>
+       <p>
+           <h1>console.error()</h1>
+
+            <b>Used to log error message to the console.Useful in testing of code. By default the error message will be highlighted with red color.</b>
+            <b>Ex</b> 
+        <li>console.error('This is a simple error'); </li> 
+            
+       </p>
+       <p>
+        <h1>console.warn()</h1>
+
+        <b>Used to log warning message to the console. By default the warning message will be highlighted with yellow color.</b> 
+        <li>console.warn('This is a warning.'); </li>
+    </p>
+    <p>
+        <h1>console.clear(); </h1>
+        <b>Used to clear the console. The console will be cleared, in case of Chrome a simple overlayed text will be printed like : ‘Console was cleared’ while in firefox no message is returned.</b> 
+        <b>Ex</b> 
+        <li>console.clear();</li>
+     </p>
+     <p>
+         <b>console.count()</b>
+
+       <b>This method is used to count the number that the function hit by this counting method.</b>
+       <b>Ex</b> 
+        <p>
+            for(let i=0;i<5;i++) <br>
+            { <br>
+            console.count(i);  <br>
+        } </p> 
+    </p>
+    <h4>Question 2</h4>
+    <h2>Difference b/w var,let and const</h2>
+            <p>
+       <b>Var declarations are globally scoped or function scoped while let and const are block scoped.Var variables can be updated and re-declared within its scope. </b> 
+    <br><b>Ex</b><br>
+       var greeter = "hey hi"; <br>
+       var greeter = "say Hello instead";
+       <br>
+       <b> Let variables can be updated but not re-declared.</b>
+<br><b>Ex</b> <br>
+let greeting = "say Hi"; <br>
+greeting = "say Hello instead";
+   <br>
+   <b> Variables declared with the const maintain constant values. const declarations share some similarities with let declarations.</b> <br>
+<b>Ex</b> <br>
+const greeting = { <br>
+    message : "say Hi", <br>
+    times : 4 <br>
+} <br>
+</p>
+ <br>
+
+<h4>Question 3</h4>
+<h2>DataTypes</h2>
+<p>
+    <ul>Primitive Datatypes</ul>
+    <li>String	represents sequence of characters e.g. "hello"</li>
+    <li> Number	represents numeric values e.g. 100</li>
+    <li>Boolean	represents boolean value either false or true</li>
+    <li>Undefined	represents undefined value</li>
+    <li>Null	represents null i.e. no value at all</li>
+
+    <ul>Non-Primitive Datatypes</ul>
+    <li>Object	represents instance through which we can access members.</li>
+    <li>Array	represents group of similar values</li>
+    <li>RegExp	represents regular expression</li>
+</p>
+   
+
+    </body>
+</html>
